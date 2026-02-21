@@ -40,11 +40,11 @@ export function AppLayout() {
   const currentPage = breadcrumbMap[location.pathname];
   const breadcrumbs = currentPage
     ? [
-        { label: "Nexus AI" },
+        { label: "OptiMerce AI" },
         ...(currentPage.parent ? [{ label: currentPage.parent }] : []),
         { label: currentPage.label },
       ]
-    : [{ label: "Nexus AI" }];
+    : [{ label: "OptiMerce AI" }];
 
   return (
     <div className="flex h-screen overflow-hidden bg-background">

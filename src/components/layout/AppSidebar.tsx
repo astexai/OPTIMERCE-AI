@@ -90,8 +90,8 @@ export function AppSidebar({ collapsed, onToggle }: SidebarProps) {
         </div>
         {!collapsed && (
           <div className="flex flex-col min-w-0">
-            <span className="text-sm font-bold text-sidebar-foreground leading-none">Nexus AI</span>
-            <span className="text-xs text-sidebar-foreground/50 leading-none mt-0.5">Commerce Intelligence</span>
+            <span className="text-sm font-bold text-sidebar-foreground leading-none">OptiMerce AI</span>
+            <span className="text-xs text-sidebar-foreground/50 leading-none mt-0.5">Predict. Optimise. Scale.</span>
           </div>
         )}
       </div>

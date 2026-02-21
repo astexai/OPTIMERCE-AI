@@ -85,7 +85,7 @@ export default function OnboardingPage() {
             <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Brain className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-foreground">Nexus AI</span>
+            <span className="font-bold text-foreground">OptiMerce AI</span>
             <span className="text-muted-foreground text-sm ml-2">— Setup Wizard</span>
           </div>
           <Button variant="ghost" size="sm" onClick={() => navigate("/dashboard")}>
@@ -353,7 +353,7 @@ export default function OnboardingPage() {
               </div>
               <h2 className="text-2xl font-bold text-foreground mb-3">You're all set! 🎉</h2>
               <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-                Nexus AI has analyzed your data and generated {Math.floor(Math.random() * 20) + 15} initial recommendations ready for you.
+                OptiMerce AI has analyzed your data and generated {Math.floor(Math.random() * 20) + 15} initial recommendations ready for you.
               </p>
               <div className="grid grid-cols-2 gap-3 max-w-sm mx-auto mb-8">
                 {[

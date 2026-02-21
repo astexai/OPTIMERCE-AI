@@ -42,19 +42,18 @@ export default function SignupPage() {
             <Brain className="w-5 h-5 text-white" />
           </div>
           <div>
-            <p className="text-white font-bold text-xl leading-none">Nexus AI</p>
-            <p className="text-white/50 text-xs leading-none mt-0.5">Commerce Intelligence</p>
+            <p className="text-white font-bold text-xl leading-none">OptiMerce AI</p>
+            <p className="text-white/50 text-xs leading-none mt-0.5">Predict. Optimise. Scale.</p>
           </div>
         </div>
 
         <div className="relative z-10">
           <h2 className="text-4xl font-bold text-white leading-tight mb-4">
-            Your AI-powered<br />
-            <span className="text-ai-gradient">growth engine</span><br />
-            starts here.
+            Scale Smarter with<br />
+            <span className="text-ai-gradient">AI-Driven Optimisation</span><br />
           </h2>
           <p className="text-white/60 text-base leading-relaxed mb-8 max-w-md">
-            Join 500+ e-commerce brands that use Nexus AI to make data-driven decisions at scale.
+            Join 500+ e-commerce brands that use OptiMerce AI to make data-driven decisions at scale.
           </p>
 
           <div className="space-y-3">
@@ -94,7 +93,7 @@ export default function SignupPage() {
             <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Brain className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-foreground">Nexus AI</span>
+            <span className="font-bold text-foreground">OptiMerce AI</span>
           </div>
 
           <div className="mb-8">

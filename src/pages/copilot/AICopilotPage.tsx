@@ -22,7 +22,7 @@ const aiResponses: Record<string, string> = {
 
 export default function AICopilotPage() {
   const [messages, setMessages] = useState<Message[]>([
-    { role: "ai", content: "Hello! I'm your Nexus AI Copilot. I have full context of your store data, inventory, pricing, and marketing performance. Ask me anything about your business.", timestamp: "Just now" }
+    { role: "ai", content: "Hello! I'm your OptiMerce AI Copilot. I have full context of your store data, inventory, pricing, and marketing performance. Ask me anything about your business.", timestamp: "Just now" }
   ]);
   const [input, setInput] = useState("");
   const [typing, setTyping] = useState(false);

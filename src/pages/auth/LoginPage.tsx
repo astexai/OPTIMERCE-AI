@@ -11,7 +11,7 @@ export default function LoginPage() {
   const navigate = useNavigate();
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [form, setForm] = useState({ email: "demo@nexusai.com", password: "••••••••" });
+  const [form, setForm] = useState({ email: "demo@optimerceai.co.uk", password: "••••••••" });
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,19 +34,19 @@ export default function LoginPage() {
             <Brain className="w-5 h-5 text-white" />
           </div>
           <div>
-            <p className="text-white font-bold text-xl leading-none">Nexus AI</p>
-            <p className="text-white/50 text-xs leading-none mt-0.5">Commerce Intelligence</p>
+            <p className="text-white font-bold text-xl leading-none">OptiMerce AI</p>
+            <p className="text-white/50 text-xs leading-none mt-0.5">Predict. Optimise. Scale.</p>
           </div>
         </div>
 
         {/* Main copy */}
         <div className="relative z-10">
           <h2 className="text-4xl font-bold text-white leading-tight mb-4">
-            The AI Brain Behind<br />
-            <span className="text-ai-gradient bg-clip-text">Smarter Commerce</span>
+            The Decision Engine<br />
+            <span className="text-ai-gradient bg-clip-text">Behind Smarter Commerce</span>
           </h2>
           <p className="text-white/60 text-lg leading-relaxed mb-8 max-w-md">
-            Unify your data, automate decisions, and unlock millions in hidden revenue — all powered by enterprise AI.
+            AI-powered pricing, inventory and marketing optimisation for modern e-commerce sellers.
           </p>
 
           {/* Stats */}
@@ -67,7 +67,7 @@ export default function LoginPage() {
         {/* Testimonial */}
         <div className="relative z-10 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
           <p className="text-white/80 text-sm leading-relaxed italic mb-3">
-            "Nexus AI transformed how we make pricing and inventory decisions. We've recovered $800K in missed revenue in just 3 months."
+            "OptiMerce AI transformed how we make pricing and inventory decisions. We've recovered $800K in missed revenue in just 3 months."
           </p>
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center text-white text-xs font-bold">SC</div>
@@ -87,7 +87,7 @@ export default function LoginPage() {
             <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Brain className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-foreground">Nexus AI</span>
+            <span className="font-bold text-foreground">OptiMerce AI</span>
           </div>
 
           <div className="mb-8">
